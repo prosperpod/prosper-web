@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73c0731c-08bb-46bb-8ebf-141d18938e55" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.nginx.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/configureStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/App/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/App/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/App/selectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/App/tests/index.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/App/tests/selectors.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/HomePage/Loadable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/HomePage/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/HomePage/messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/HomePage/tests/index.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/reducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/selectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/actions.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/index.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/reducer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/selectors.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/NotFoundPage/Loadable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/NotFoundPage/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/NotFoundPage/messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/containers/NotFoundPage/tests/index.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/global-styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-128x128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-167x167.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-384x384.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/reducers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tests/i18n.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tests/store.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/translations/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/checkStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/injectReducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/injectSaga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/reducerInjectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/sagaInjectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/tests/checkStore.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/tests/injectReducer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/tests/injectSaga.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/tests/reducerInjectors.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/tests/sagaInjectors.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/remove.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/sanitize.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/commands.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/components.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/debugging.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/deployment.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/files.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/gotchas.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/introduction.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/remove.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/server-configs.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/webstorm-debug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/webstorm-eslint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/general/workflow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/async-components.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/i18n.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/immutablejs.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/redux-saga.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/redux.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/remove.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/reselect.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/routing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/maintenance/dependency.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/testing/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/testing/component-testing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/testing/remote-testing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/testing/unit-testing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/class.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/loadable.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/messages.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/stateless.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/component/test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/actions.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/actions.test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/class.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/constants.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/index.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/messages.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/reducer.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/reducer.test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/saga.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/saga.test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/selectors.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/selectors.test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/stateless.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/container/test.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/add-locale-data.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/app-locale.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/format-translation-messages.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/intl-locale-data.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/polyfill-intl-locale.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/translation-messages.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/language/translations-json.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/generators/utils/componentExists.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/mocks/cssModule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/mocks/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/analyze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/dependencies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/extract-intl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/generate-templates-for-linting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/helpers/checkmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/helpers/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/helpers/xmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/scripts/npmcheckversion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/testing/test-bundler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/webpack/webpack.base.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/webpack/webpack.dev.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/webpack/webpack.dll.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internals/webpack/webpack.prod.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/argv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middlewares/addDevMiddlewares.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middlewares/addProdMiddlewares.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/port.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/next.config.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prosper-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prosper-web" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.webserver.js">
+    <configuration name="webserver.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="webserver.js" working-dir="$PROJECT_DIR$" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.webserver.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73c0731c-08bb-46bb-8ebf-141d18938e55" name="Default" comment="" />
+      <created>1509943025879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509943025879</updated>
+      <workItem from="1509943028208" duration="619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="944" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/next.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/next/node_modules/prop-types/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/next/dist/bin/next-export">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/stevenxie/Repositories/prosperpod/prosper-web/webserver.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/webserver.js</OriginalElement>
+          <nodes>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.11.1/core-modules/http.js#Server#1004;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/next/dist/server/next.js</node>
+            <node x="" y="">$PROJECT_DIR$/webserver.js#app#6;/Users/stevenxie/Repositories/prosperpod/prosper-web/webserver.js#next#82;/Users/stevenxie/Repositories/prosperpod/prosper-web/webserver.js#server#48;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="173.5" y="-41.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
