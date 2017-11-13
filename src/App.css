@@ -1,0 +1,77 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 1;
+  background-color: #424242;
+}
+
+.top-bar-input {
+  background-color: #232323;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #BDBDBD;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 12.5pt;
+  overflow-x: scroll;
+}
+
+.top-bar-input::placeholder {
+  color: #696969;
+  opacity: 1;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.top-bar-input:focus::placeholder{
+  opacity: 0;
+}
+
+.console {
+  margin: 47.5pt 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 12pt;
+  color: #BDBDBD;
+}
+
+.console ul {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+.console li {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.console li.sys {
+  color: #96C786;
+}
+
+p.prefix {
+  flex: 1
+}
+
+.console li p.message {
+  flex: 2
+}
+
