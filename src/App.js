@@ -12,8 +12,8 @@ export default class App extends Component {
       console: {
         elements: [],
         prefixes: {
-          usr: "&!:",
-          sys: "$:",
+          usr: "usr$:",
+          sys: "local:",
         }
       },
       socket: {
@@ -40,9 +40,10 @@ export default class App extends Component {
     this.socket.addEventListener('close', (event) => {
       console.log(event);
       this.addConsoleElement("sys", "Socket connection closed" +
-          (event.reason ? (": " + event.reason) : ", reason unknown."), "Alert:")
+          (event.reason ? (": " + event.reason + ".") : ", reason unknown."), "alert:")
       this.setState((state) => {
         state.socket.open = false;
+        state.console.prefixes.sys = "local:";
         return state;
       });
     });
@@ -51,6 +52,17 @@ export default class App extends Component {
   handleServerMessage(msg) {
     try {
       const json = JSON.parse(msg);
+
+      if (json.hasOwnProperty("console-command")) {
+        const command = json["console-command"];
+        this.handleSocketCommand(command);
+      } else if (json.hasOwnProperty("console-commands")) {
+        const commands = json["console-commands"];
+        commands.forEach((cmd) => {
+          this.handleSocketCommand(cmd);
+        });
+      }
+
       if (json.hasOwnProperty("messages")) {
         json.messages.forEach((message) => {
           this.addConsoleElement("sys", message, json.prefix);
@@ -59,12 +71,6 @@ export default class App extends Component {
         this.addConsoleElement("sys", json.message, json.prefix);
       }
 
-      if (json.hasOwnProperty("console-command")) {
-        const command = json["console-command"];
-        if (command === "clear-console") {
-          this.clearConsole();
-        }
-      }
     } catch (err) {
       if (err.name === "SyntaxError") {
         this.addConsoleElement("sys", msg);
@@ -74,8 +80,26 @@ export default class App extends Component {
     }
   }
 
-  handleSocketError(event) {
-    this.addConsoleElement("sys", "A socket error occurred...", "Error:");
+  handleSocketCommand(command) {
+    if (command === "clear-console") {
+      this.clearConsole();
+    } else if (command.startsWith("set-sys-prefix")) {
+      const prefix = command.split(" ").splice(1, 1).join(" ");
+      this.setState((state) => {
+        state.console.prefixes.sys = prefix;
+        return state;
+      });
+    } else if (command.startsWith("set-usr-prefix")) {
+      const prefix = command.split(" ").splice(1, 1).join(" ");
+      this.setState((state) => {
+        state.console.prefixes.usr = prefix;
+        return state;
+      });
+    }
+  }
+
+  handleSocketError() {
+    this.addConsoleElement("sys", "A socket error occurred...", "error:");
   }
 
   handleInputChange(event) {
@@ -102,7 +126,7 @@ export default class App extends Component {
       this.socket.send(msg);
     } else {
       this.addConsoleElement("sys", "Socket connection could not be made, no communication" +
-          " possible.", "Warning:");
+          " possible.");
     }
   }
 
