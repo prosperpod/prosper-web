@@ -2,7 +2,7 @@
   "name": "prosper-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prosperpod.github.io/prosper-web",
+  "homepage": "http://prosperpod.ca",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.1.0",

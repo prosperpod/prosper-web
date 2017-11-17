@@ -18,9 +18,7 @@
   outline: none;
   padding: 10px;
   color: #BDBDBD;
-  position: absolute;
-  left: 0;
-  right: 0;
+  margin: 0 0; width: 100%;
   font-family: "Space Mono", monospace;
   font-size: 12.5pt;
   overflow-x: scroll;
@@ -41,7 +39,6 @@
 }
 
 .console {
-  margin: 47.5pt 0;
   padding: 0;
   font-family: "Space Mono", monospace;
   font-size: 12pt;
@@ -67,11 +64,20 @@
   color: #96C786;
 }
 
-p.prefix {
-  flex: 1
+.console li p.prefix {
+  margin: 0 5pt;
+  flex: none;
+}
+
+.console li.usr p.prefix {
+  color: #919191;
+}
+
+.console li.sys p.prefix {
+  color: #59a469;
 }
 
 .console li p.message {
-  flex: 2
+  margin: 0;
+  flex: auto;
 }
-
